@@ -146,3 +146,36 @@ th {
   font-size: 12px;
   color: #333;
 }
+
+.delete-btn.confirm {
+  background: #c0392b;
+  border-color: #c0392b;
+  color: #fff;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 360px;
+  width: calc(100% - 32px);
+}
+
+.modal p {
+  margin-bottom: 16px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
